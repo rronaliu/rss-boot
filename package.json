@@ -1,0 +1,25 @@
+{
+  "name": "bootdev-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "fast-xml-parser": "^5.9.3",
+    "postgres": "^3.4.9"
+  }
+}
